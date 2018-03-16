@@ -1,0 +1,58 @@
+#aboutus,#contact
+  .about,.provide,.work,.contact-us
+    min-height: 100vh
+    .title
+      font-family: Quicksand
+      font-size: 4em
+      font-weight: lighter
+      padding-bottom: 20px
+      @media #{$extra-large-and-up} 
+        font-size: 5em
+      @media #{$medium-and-down}
+        font-size: 2.5em
+    .text
+      font-family: Quicksand
+      font-size: 1.4em
+      font-weight: lighter
+      @media #{$medium-and-down}
+        font-size: 1.2em
+    &.contact-us
+      .gient-text
+        font-size: 5em
+        font-family: Quicksand
+        padding-bottom: 150px
+      .address
+        .title
+          font-size: 2em
+    &.provide,&.work
+      &.work
+        .text
+          padding: 0 0 10px 0
+        .section
+          .item
+            padding: 10px 0
+            .img  
+              max-width: 200px
+              img
+                object-fit: contain
+                width: 100%
+      .section
+        padding-top: 10px
+        padding-bottom: 0
+        .title
+          font-family: Quicksand
+          font-size: 2.5em
+          font-weight: lighter
+          padding-bottom: 20px
+          @media #{$extra-large-and-up} 
+            font-size: 3em
+          @media #{$medium-and-down}
+            font-size: 2em
+        .item 
+          .img
+            height: 60px
+            margin: auto
+            img
+              height: 100%
+          .text
+            padding: 10px 0

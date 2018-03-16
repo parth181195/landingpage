@@ -1,60 +1,247 @@
 <!doctype html>
 <html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <title>FastShell by @_Karamii</title>
 
+<head>
+    <meta charset="utf-8">
+    <title>Zypher</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-
-    <link href="//www.google-analytics.com" rel="dns-prefetch">
-    <link href="//ajax.googleapis.com" rel="dns-prefetch">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400|Roboto:100,300,400,500,700" rel="stylesheet">
     <link href="assets/css/style.min.css" rel="stylesheet">
+</head>
 
-    <script src="assets/components/modernizr/modernizr.js"></script>
-  </head>
-  <body>
-
-    <header class="header" role="banner">
-      <div class="logo">
-        <a href="/">
-          <img src="assets/img/logo.png" alt="Logo">
-        </a>
-      </div>
-      <nav class="nav" role="navigation">
-        <ul>
-          <li>
-            <a href="/"></a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main class="main" role="main">
-
-    </main>
-
-    <aside class="sidebar" role="complementary">
-
-    </aside>
-
-    <footer class="footer" role="contentinfo">
-
-    </footer>
-
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down table-of-contents">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="home" class="scrollspy">
+        <div class="home-wrapper">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <div class="title">
+                            We are Zypher
+                        </div>
+                        <div class="text">
+                            In a User Centric world
+                            <br>we provide design centric scalable solution.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="aboutus" class="scrollspy">
+        <div class="container">
+            <div class="about">
+                <div class="title center-align">About us</div>
+                <div class="text center-align">
+                    We are a small creative agency based out of Gandhinagar, Gujarat, India. We develope digital brand strategies communication products and services that matter to the target group by novelty, brand authenticity, outstanding quality for higher brand awareness,
+                    engagement, sales and loyalty. We achieve this via a strict user-centered and agile approach, our deliverables is always a trustworthy tangible and shareable proof that works.
+                </div>
+            </div>
+            <div class="provide">
+                <div class="title center-align">We Provide</div>
+                <div class="text center-align">
+                    we provide end to end sollution for you product from design to development and the maintaing it at your product scales.
+                </div>
+                <div class="section">
+                    <div class="title center-align">
+                        Design
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m12 l4">
+                            <div class="item center-align">
+                                <div class="img center-align">
+                                    <img src="assets/img/pen.svg" alt="">
+                                </div>
+                                <div class="text center-align">
+                                    Prototypeing
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l4">
+                            <div class="item center-align">
+                                <div class="img center-align">
+                                    <img src="assets/img/pc.svg" alt="">
+                                </div>
+                                <div class="text center-align">
+                                    UI/UX Design
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l4">
+                            <div class="item center-align">
+                                <div class="img center-align">
+                                    <img src="assets/img/glass.svg" alt="">
+                                </div>
+                                <div class="text center-align">
+                                    UX Analsysis
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="title center-align">
+                        Development
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m12 l6">
+                            <div class="item center-align">
+                                <div class="img center-align">
+                                    <img src="assets/img/web.svg" alt="">
+                                </div>
+                                <div class="text center-align">
+                                    Web
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l6">
+                            <div class="item center-align">
+                                <div class="img center-align">
+                                    <img src="assets/img/mobile.svg" alt="">
+                                </div>
+                                <div class="text center-align">
+                                    Mobile
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="title center-align">We have worked with</div>
+                <div class="text center-align">
+                    Selected brands from our personal pool of experience
+                </div>
+                <div class="section">
+                    <div class="row">
+                        <div class="col s12 m6 l4">
+                            <div class="item center-align">
+                                <div class="img center-align">
+                                    <img src="assets/img/logos/1.svg" alt="">
+                                </div>
+                                <div class="text center-align">
+                                    LendCypher
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l4">
+                            <div class="item center-align">
+                                <div class="img center-align">
+                                    <img src="assets/img/logos/2.svg" alt="">
+                                </div>
+                                <div class="text center-align">
+                                    UI/UX Design
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l4">
+                            <div class="item center-align">
+                                <div class="img center-align">
+                                    <img src="assets/img/logos/3.png" alt="">
+                                </div>
+                                <div class="text center-align">
+                                    UI/UX Design
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l4">
+                            <div class="item center-align">
+                                <div class="img center-align">
+                                    <img src="assets/img/logos/4.png" alt="">
+                                </div>
+                                <div class="text center-align">
+                                    LendCypher
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l4">
+                            <div class="item center-align">
+                                <div class="img center-align">
+                                    <img src="assets/img/logos/5.png" alt="">
+                                </div>
+                                <div class="text center-align">
+                                    UI/UX Design
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l4">
+                            <div class="item center-align">
+                                <div class="img center-align">
+                                    <img src="assets/img/logos/6.png" alt="">
+                                </div>
+                                <div class="text center-align">
+                                    UI/UX Design
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="scrollspy">
+        <div class="container center-align">
+            <div class="contact-us">
+                <div class="title center-align">Sey Hello...</div>
+                <div class="text center-align">
+                    For a project, As a partner, As a talent
+                </div>
+                <div class="gient-text center-align">
+                    hello@zypher.tech
+                </div>
+                <div class="address center-align">
+                    <div class="title center-align">
+                        Address
+                    </div>
+                    <div class="text center-align">
+                        The 1947,<br> Infocity Supermall-2,<br> Gandhinagr,Gujarat.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer> -->
     <script src="assets/components/jquery/jquery.min.js"></script>
+    <script src="assets/components/materialize/materialize.min.js"></script>
     <script src="assets/js/scripts.min.js"></script>
+</body>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
-
-  </body>
 </html>
